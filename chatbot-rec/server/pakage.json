@@ -1,0 +1,15 @@
+{
+    "name": "fitness-meal-planner-backend",
+    "version": "1.0.0",
+    "description": "Backend for fitness meal recommendation app with Gemini API",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "@google/generative-ai": "^0.12.0",
+        "dotenv": "^16.0.3"
+    }
+}
